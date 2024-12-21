@@ -97,7 +97,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
 }
@@ -428,13 +428,26 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
-.bg-img{
+
+.bg-img {
     background-image: url('../img/bg-header.png');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-.img-fluid{
-    background: rgb(230, 186, 106);
+
+.img-fluid {
+    background: #f1c74f;
     border-radius: 50%;
+}
+
+
+.logo {
+    width: 15pc;
+}
+
+@media(min-width:425px) and (max-width:1024px) {
+    .logo {
+        width: 10pc;
+    }
 }
